@@ -1,0 +1,48 @@
+import type { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: 'online-plant-nursery',
+    title: 'Online Plant Nursery',
+    category: 'Web Application',
+    summary: 'A plant nursery website showcasing plants, nursery services and registration pages for customers and shop owners.',
+    purpose: 'Give a nursery a welcoming online storefront where visitors can explore plant offerings and find key nursery information.',
+    contribution: 'Personal project built with a nursery storefront template, with PHP pages for customer and shop registration.',
+    stack: ['PHP', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    features: ['Plant showcase and new arrivals', 'Nursery services and about sections', 'Customer registration form', 'Shop owner registration form'],
+    status: 'Personal project',
+  },
+  {
+    id: 'bridal-boutique',
+    title: 'AI-Enabled Bridal Boutique Management System',
+    category: 'Web Application',
+    summary: 'A proposed management platform to organise the day-to-day work of a bridal boutique.',
+    purpose: 'Reduce manual work by bringing inventory, appointments, alterations, billing and customer updates into one system.',
+    contribution: 'Academic project concept and development work. Update this description to accurately explain the modules you personally completed.',
+    stack: ['React', 'TypeScript', 'SQL'],
+    features: ['Inventory and rental tracking', 'Appointment management', 'Alteration and billing records', 'Customer notifications and recommendations'],
+    status: 'Academic project',
+  },
+  {
+    id: 'digital-invitation',
+    title: 'Digital Wedding Invitation',
+    category: 'Frontend Project',
+    summary: 'A mobile-first digital invitation concept with an animated envelope and invitation reveal.',
+    purpose: 'Make a wedding invitation easy to view and share as a link on a phone.',
+    contribution: 'Personal frontend project. Add the exact tools, finished features and your own contribution before submitting.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    features: ['Envelope-opening interaction', 'Animated invitation reveal', 'Mobile-friendly layout', 'Shareable link concept'],
+    status: 'Personal project',
+  },
+  {
+    id: 'birthday-website',
+    title: 'Interactive Birthday Website',
+    category: 'Frontend Project',
+    summary: 'A mobile-focused celebration page with interactive moments and animations.',
+    purpose: 'Create a personalised digital birthday experience rather than a static greeting card.',
+    contribution: 'Personal frontend project concept. Replace this text with the parts you have actually implemented.',
+    stack: ['React', 'CSS', 'JavaScript'],
+    features: ['Interactive buttons', 'Animated cake and floating hearts', 'Personal messages', 'Mobile-first 9:16 layout'],
+    status: 'Personal project',
+  },
+];
